@@ -1,30 +1,49 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Juani\\Desktop\\2026\\EF\\AppConsola\\",
+  "WorkspaceRootPath": "C:\\Users\\Marti\\OneDrive\\Documentos\\SegundoParcial\\SegundoParcial\\AppConsola\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{741B68FC-E406-418F-AE47-F9D8E283B6BD}|AppConsola\\AppConsola.csproj|c:\\users\\juani\\desktop\\2026\\ef\\appconsola\\appconsola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{741B68FC-E406-418F-AE47-F9D8E283B6BD}|AppConsola\\AppConsola.csproj|solutionrelative:appconsola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\marti\\onedrive\\documentos\\segundoparcial\\segundoparcial\\appconsola\\accesodatos\\repositories\\cancionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\repositories\\cancionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38188C59-AF83-433A-BC3F-D9040F472124}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\juani\\desktop\\2026\\ef\\appconsola\\accesodatos\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38188C59-AF83-433A-BC3F-D9040F472124}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0B43DBFF-E285-2334-8A77-09A4879ADD36}|AppConsola\\AppConsola.csproj|c:\\users\\marti\\onedrive\\documentos\\segundoparcial\\segundoparcial\\appconsola\\appconsola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B43DBFF-E285-2334-8A77-09A4879ADD36}|AppConsola\\AppConsola.csproj|solutionrelative:appconsola\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38188C59-AF83-433A-BC3F-D9040F472124}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\juani\\desktop\\2026\\ef\\appconsola\\accesodatos\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38188C59-AF83-433A-BC3F-D9040F472124}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\marti\\onedrive\\documentos\\segundoparcial\\segundoparcial\\appconsola\\accesodatos\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38188C59-AF83-433A-BC3F-D9040F472124}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\juani\\desktop\\2026\\ef\\appconsola\\accesodatos\\data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38188C59-AF83-433A-BC3F-D9040F472124}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\marti\\onedrive\\documentos\\segundoparcial\\segundoparcial\\appconsola\\accesodatos\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{38188C59-AF83-433A-BC3F-D9040F472124}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\juani\\desktop\\2026\\ef\\appconsola\\accesodatos\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{38188C59-AF83-433A-BC3F-D9040F472124}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Marti\\OneDrive\\Documentos\\SegundoParcial\\SegundoParcial\\AppConsola\\AccesoDatos\\Migrations\\20260930230917_ErrorConsola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AccesoDatos\\Migrations\\20260930230917_ErrorConsola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Juani\\Desktop\\2026\\EF\\AppConsola\\AccesoDatos\\Migrations\\20260812223930_AgregaMigracionInicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AccesoDatos\\Migrations\\20260812223930_AgregaMigracionInicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\marti\\onedrive\\documentos\\segundoparcial\\segundoparcial\\appconsola\\accesodatos\\models\\cancion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\models\\cancion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|c:\\users\\marti\\onedrive\\documentos\\segundoparcial\\segundoparcial\\appconsola\\accesodatos\\data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8B56AF-C884-1B79-740F-D48CDB7C9D05}|AccesoDatos\\AccesoDatos.csproj|solutionrelative:accesodatos\\data\\aplicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Marti\\OneDrive\\Documentos\\SegundoParcial\\SegundoParcial\\AppConsola\\AccesoDatos\\Migrations\\20260930230341_suboCambiosAtributos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AccesoDatos\\Migrations\\20260930230341_suboCambiosAtributos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Marti\\OneDrive\\Documentos\\SegundoParcial\\SegundoParcial\\AppConsola\\AccesoDatos\\Migrations\\20260930224121_creoCancionRepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AccesoDatos\\Migrations\\20260930224121_creoCancionRepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Marti\\OneDrive\\Documentos\\SegundoParcial\\SegundoParcial\\AppConsola\\AccesoDatos\\Migrations\\20260930222253_Inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AccesoDatos\\Migrations\\20260930222253_Inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Juani\\Desktop\\2026\\EF\\AppConsola\\AccesoDatos\\Migrations\\20260812223930_AgregaMigracionInicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,90 +53,150 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20260930230917_ErrorConsola.cs",
+              "DocumentMoniker": "C:\\Users\\Marti\\OneDrive\\Documentos\\SegundoParcial\\SegundoParcial\\AppConsola\\AccesoDatos\\Migrations\\20260930230917_ErrorConsola.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Migrations\\20260930230917_ErrorConsola.cs",
+              "ToolTip": "C:\\Users\\Marti\\OneDrive\\Documentos\\SegundoParcial\\SegundoParcial\\AppConsola\\AccesoDatos\\Migrations\\20260930230917_ErrorConsola.cs",
+              "RelativeToolTip": "AccesoDatos\\Migrations\\20260930230917_ErrorConsola.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T23:09:17.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cancion.cs",
+              "DocumentMoniker": "C:\\Users\\Marti\\OneDrive\\Documentos\\SegundoParcial\\SegundoParcial\\AppConsola\\AccesoDatos\\Models\\Cancion.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Models\\Cancion.cs",
+              "ToolTip": "C:\\Users\\Marti\\OneDrive\\Documentos\\SegundoParcial\\SegundoParcial\\AppConsola\\AccesoDatos\\Models\\Cancion.cs",
+              "RelativeToolTip": "AccesoDatos\\Models\\Cancion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T22:28:31.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20260930230341_suboCambiosAtributos.cs",
+              "DocumentMoniker": "C:\\Users\\Marti\\OneDrive\\Documentos\\SegundoParcial\\SegundoParcial\\AppConsola\\AccesoDatos\\Migrations\\20260930230341_suboCambiosAtributos.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Migrations\\20260930230341_suboCambiosAtributos.cs",
+              "ToolTip": "C:\\Users\\Marti\\OneDrive\\Documentos\\SegundoParcial\\SegundoParcial\\AppConsola\\AccesoDatos\\Migrations\\20260930230341_suboCambiosAtributos.cs",
+              "RelativeToolTip": "AccesoDatos\\Migrations\\20260930230341_suboCambiosAtributos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T23:03:41.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20260930224121_creoCancionRepo.cs",
+              "DocumentMoniker": "C:\\Users\\Marti\\OneDrive\\Documentos\\SegundoParcial\\SegundoParcial\\AppConsola\\AccesoDatos\\Migrations\\20260930224121_creoCancionRepo.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Migrations\\20260930224121_creoCancionRepo.cs",
+              "ToolTip": "C:\\Users\\Marti\\OneDrive\\Documentos\\SegundoParcial\\SegundoParcial\\AppConsola\\AccesoDatos\\Migrations\\20260930224121_creoCancionRepo.cs",
+              "RelativeToolTip": "AccesoDatos\\Migrations\\20260930224121_creoCancionRepo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T22:41:21.776Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CancionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Marti\\OneDrive\\Documentos\\SegundoParcial\\SegundoParcial\\AppConsola\\AccesoDatos\\Repositories\\CancionRepository.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Repositories\\CancionRepository.cs",
+              "ToolTip": "C:\\Users\\Marti\\OneDrive\\Documentos\\SegundoParcial\\SegundoParcial\\AppConsola\\AccesoDatos\\Repositories\\CancionRepository.cs",
+              "RelativeToolTip": "AccesoDatos\\Repositories\\CancionRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAiwBsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T22:33:35.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20260930222253_Inicial.cs",
+              "DocumentMoniker": "C:\\Users\\Marti\\OneDrive\\Documentos\\SegundoParcial\\SegundoParcial\\AppConsola\\AccesoDatos\\Migrations\\20260930222253_Inicial.cs",
+              "RelativeDocumentMoniker": "AccesoDatos\\Migrations\\20260930222253_Inicial.cs",
+              "ToolTip": "C:\\Users\\Marti\\OneDrive\\Documentos\\SegundoParcial\\SegundoParcial\\AppConsola\\AccesoDatos\\Migrations\\20260930222253_Inicial.cs",
+              "RelativeToolTip": "AccesoDatos\\Migrations\\20260930222253_Inicial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T22:22:53.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Juani\\Desktop\\2026\\EF\\AppConsola\\AppConsola\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Marti\\OneDrive\\Documentos\\SegundoParcial\\SegundoParcial\\AppConsola\\AppConsola\\Program.cs",
               "RelativeDocumentMoniker": "AppConsola\\Program.cs",
-              "ToolTip": "C:\\Users\\Juani\\Desktop\\2026\\EF\\AppConsola\\AppConsola\\Program.cs",
+              "ToolTip": "C:\\Users\\Marti\\OneDrive\\Documentos\\SegundoParcial\\SegundoParcial\\AppConsola\\AppConsola\\Program.cs",
               "RelativeToolTip": "AppConsola\\Program.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAIwAoAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAhwE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-12T22:47:21.473Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "20260812223930_AgregaMigracionInicial.cs",
               "DocumentMoniker": "C:\\Users\\Juani\\Desktop\\2026\\EF\\AppConsola\\AccesoDatos\\Migrations\\20260812223930_AgregaMigracionInicial.cs",
-              "RelativeDocumentMoniker": "AccesoDatos\\Migrations\\20260812223930_AgregaMigracionInicial.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Juani\\Desktop\\2026\\EF\\AppConsola\\AccesoDatos\\Migrations\\20260812223930_AgregaMigracionInicial.cs",
               "ToolTip": "C:\\Users\\Juani\\Desktop\\2026\\EF\\AppConsola\\AccesoDatos\\Migrations\\20260812223930_AgregaMigracionInicial.cs",
-              "RelativeToolTip": "AccesoDatos\\Migrations\\20260812223930_AgregaMigracionInicial.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Juani\\Desktop\\2026\\EF\\AppConsola\\AccesoDatos\\Migrations\\20260812223930_AgregaMigracionInicial.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T22:39:30.815Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-12T22:39:30.815Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Juani\\Desktop\\2026\\EF\\AppConsola\\AccesoDatos\\Repositories\\GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Marti\\OneDrive\\Documentos\\SegundoParcial\\SegundoParcial\\AppConsola\\AccesoDatos\\Repositories\\GenericRepository.cs",
               "RelativeDocumentMoniker": "AccesoDatos\\Repositories\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\Juani\\Desktop\\2026\\EF\\AppConsola\\AccesoDatos\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\Marti\\OneDrive\\Documentos\\SegundoParcial\\SegundoParcial\\AppConsola\\AccesoDatos\\Repositories\\GenericRepository.cs",
               "RelativeToolTip": "AccesoDatos\\Repositories\\GenericRepository.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAACcAAAAAAAAAAAAzwDQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-12T22:30:49.765Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Juani\\Desktop\\2026\\EF\\AppConsola\\AccesoDatos\\Repositories\\IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Marti\\OneDrive\\Documentos\\SegundoParcial\\SegundoParcial\\AppConsola\\AccesoDatos\\Repositories\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "AccesoDatos\\Repositories\\IGenericRepository.cs",
-              "ToolTip": "C:\\Users\\Juani\\Desktop\\2026\\EF\\AppConsola\\AccesoDatos\\Repositories\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\Marti\\OneDrive\\Documentos\\SegundoParcial\\SegundoParcial\\AppConsola\\AccesoDatos\\Repositories\\IGenericRepository.cs",
               "RelativeToolTip": "AccesoDatos\\Repositories\\IGenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-12T22:29:18.066Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Usuario.cs",
-              "DocumentMoniker": "C:\\Users\\Juani\\Desktop\\2026\\EF\\AppConsola\\AccesoDatos\\Models\\Usuario.cs",
-              "RelativeDocumentMoniker": "AccesoDatos\\Models\\Usuario.cs",
-              "ToolTip": "C:\\Users\\Juani\\Desktop\\2026\\EF\\AppConsola\\AccesoDatos\\Models\\Usuario.cs",
-              "RelativeToolTip": "AccesoDatos\\Models\\Usuario.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-12T21:45:44.695Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "AplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Juani\\Desktop\\2026\\EF\\AppConsola\\AccesoDatos\\Data\\AplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Marti\\OneDrive\\Documentos\\SegundoParcial\\SegundoParcial\\AppConsola\\AccesoDatos\\Data\\AplicationDbContext.cs",
               "RelativeDocumentMoniker": "AccesoDatos\\Data\\AplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Juani\\Desktop\\2026\\EF\\AppConsola\\AccesoDatos\\Data\\AplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Marti\\OneDrive\\Documentos\\SegundoParcial\\SegundoParcial\\AppConsola\\AccesoDatos\\Data\\AplicationDbContext.cs",
               "RelativeToolTip": "AccesoDatos\\Data\\AplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA2wA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-12T21:42:12.892Z",
               "EditorCaption": ""

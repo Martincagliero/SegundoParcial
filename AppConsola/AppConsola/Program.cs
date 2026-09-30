@@ -2,21 +2,26 @@
 using AccesoDatos.Repositories;
 
 // 1. Instanciamos el repositorio.
-IGenericRepository<Usuario> usuarioRepository = new GenericRepository<Usuario>();
+IGenericRepository<Artista> artistaRepository = new GenericRepository<Artista>();
+CancionRepository cancionRepository = new CancionRepository();
 
 bool continuar = true;
 
 while (continuar)
 {
     Console.WriteLine("=================================================");
-    Console.WriteLine("\tGestión de Usuarios");
+    Console.WriteLine("\tPlataforma musical");
     Console.WriteLine("=================================================");
     Console.WriteLine();
-    Console.WriteLine("1. Agregar usuario (Alta)");
-    Console.WriteLine("2. Modificar usuario (Modificación)");
-    Console.WriteLine("3. Eliminar usuario (Baja)");
-    Console.WriteLine("4. Ver todos los usuarios");
-    Console.WriteLine("5. Salir");
+    Console.WriteLine("1. Alta Artista");
+    Console.WriteLine("2. Alta Cancion");
+    Console.WriteLine("3. Ver Canciones");
+    Console.WriteLine("4. Mostrar canciones más largas");
+    Console.WriteLine("5. Cantidad total de canciones");
+    Console.WriteLine("6. Mostrar canciones ordenadas alfabéticamente por título");
+    Console.WriteLine("7. Verificar si existen canciones registradas");
+    Console.WriteLine("8. Visualizar artistas registrados.");
+    Console.WriteLine("0. Salir");
     Console.WriteLine();
 
     Console.Write("Seleccione una opción: ");
@@ -26,23 +31,35 @@ while (continuar)
     switch (opcion)
     {
         case "1":
-            AltaUsuario();
+            AltaArtista();
             break;
-
         case "2":
-            ModificarUsuario();
+            AltaCancion();
             break;
-
         case "3":
-            BajaUsuario();
+            VerCanciones();
             break;
 
         case "4":
-            VisualizarUsuarios();
+            MostrarCancionesMasLargas();
+            break;
+        case "5":
+            CantidadTotalCanciones();
+            break;
+        case "6":
+            CancionesOrdenadasXTitulo();
+            break;
+        case "7":
+            VerificarExistenCanciones();
+            break;
+        case "8":
+            VisualizarArtistas();
             break;
 
-        case "5":
-            Console.WriteLine("¡Cerrando el sistema de usuarios!");
+
+
+        case "0":
+            Console.WriteLine("¡Cerrando el sistema de Artistas!");
             continuar = false;
             break;
 
@@ -53,99 +70,151 @@ while (continuar)
     }
 }
 
-void AltaUsuario()
+void AltaArtista()
 {
-    Console.Write("Ingrese el nombre del usuario: ");
-    string name = Console.ReadLine();
+    Console.Write("Ingrese el nombre del Artista: ");
+    string nombre = Console.ReadLine();
 
-    Console.Write("Ingrese el apellido del usuario: ");
-    string lastName = Console.ReadLine();
 
-    var nuevoUsuario = new Usuario
+
+    var nuevoArtista = new Artista
     {
-        Name = name,
-        LastName = lastName
+        Nombre = nombre,
+    
     };
 
-    usuarioRepository.Agregar(nuevoUsuario);
-    Console.WriteLine("Usuario agregado exitosamente.");
+    artistaRepository.Agregar(nuevoArtista);
+    Console.WriteLine("Artista agregado exitosamente.");
     PresioneParaContinuar();
 }
-
-void ModificarUsuario()
+void AltaCancion()
 {
-    MostrarListaUsuarios(usuarioRepository);
-    Console.Write("Ingrese el ID del usuario a modificar: ");
+    Console.Write("Ingrese el id del artista: ");
+    int ArtistaId = int.Parse(Console.ReadLine());
 
-    if (int.TryParse(Console.ReadLine(), out int id))
+
+    Console.Write("Ingrese el Titulo de la cancion: ");
+    string titulo = Console.ReadLine();
+    Console.Write("Ingrese la duracion de la cancion (en minutos) : ");
+    int duracion = int.Parse(Console.ReadLine());
+
+
+    var nuevaCancion = new Cancion
     {
-        var usuarioACambiar = usuarioRepository.ObtenerPorId(id);
+        Titulo = titulo,
+        ArtistaId = ArtistaId,
+        Duracion = duracion,
+    };
 
-        if (usuarioACambiar != null)
-        {
-            Console.Write($"Ingrese el nuevo nombre para '{usuarioACambiar.Name}': ");
-            usuarioACambiar.Name = Console.ReadLine();
-
-            Console.Write($"Ingrese el nuevo apellido para '{usuarioACambiar.LastName}': ");
-            usuarioACambiar.LastName = Console.ReadLine();
-
-            usuarioRepository.Modificar(usuarioACambiar);
-            Console.WriteLine("Usuario actualizado correctamente.");
-        }
-        else
-        {
-            Console.WriteLine("No se encontró ningún usuario con ese ID.");
-        }
-    }
-    else
-    {
-        Console.WriteLine("ID inválido.");
-    }
+    cancionRepository.Agregar(nuevaCancion);
+    Console.WriteLine("Cancion agregada exitosamente.");
     PresioneParaContinuar();
 }
 
-void BajaUsuario()
+
+
+void VerCanciones()
 {
-    MostrarListaUsuarios(usuarioRepository);
-    Console.Write("Ingrese el ID del usuario a eliminar: ");
-
-    if (int.TryParse(Console.ReadLine(), out int id))
-    {
-        usuarioRepository.Eliminar(id);
-        Console.WriteLine("Proceso de eliminación finalizado.");
-    }
-    else
-    {
-        Console.WriteLine("ID inválido.");
-    }
+    MostrarListaCanciones(cancionRepository);
     PresioneParaContinuar();
+
 }
 
-void VisualizarUsuarios()
-{
-    MostrarListaUsuarios(usuarioRepository);
-    PresioneParaContinuar();
-}
-
-void MostrarListaUsuarios(IGenericRepository<Usuario> repository)
+void MostrarListaCanciones(IGenericRepository<Cancion> repository)
 {
     Console.WriteLine("--- LISTADO ACTUAL EN BASE DE DATOS ---");
-    var usuarios = repository.ObtenerTodos();
+    var Canciones = repository.ObtenerTodos();
 
-    if (!usuarios.Any())
+    if (!Canciones.Any())
     {
         Console.WriteLine("[La tabla está vacía]");
     }
     else
     {
-        foreach (var u in usuarios)
+        foreach (var c in Canciones)
         {
-            Console.WriteLine($"ID: {u.Id} | Nombre: {u.Name} {u.LastName}");
+            Console.WriteLine($"ID: {c.Id} | Titulo: {c.Titulo} | Duracion: {c.Duracion} ");
         }
     }
     Console.WriteLine("---------------------------------------");
     Console.WriteLine();
 }
+
+
+
+void MostrarCancionesMasLargas()
+{
+    List<Cancion> canciones = cancionRepository.CancionesMasLargas();
+
+    foreach (var cancion in canciones)
+    {
+        Console.WriteLine($"Título: {cancion.Titulo} | Duro : {cancion.Duracion} minutos ");
+       
+      
+    }
+}
+void CantidadTotalCanciones()
+{
+    var total = cancionRepository.CantidadTotalCanciones();
+    Console.WriteLine(total);
+}
+
+void CancionesOrdenadasXTitulo()
+{
+    List<Cancion> canciones = cancionRepository.CancionesOrdenadasXTitulo();
+
+    foreach(var c in canciones)
+    {
+        Console.WriteLine($"ID: {c.Id} | Titulo: {c.Titulo} ");
+    }
+}
+
+
+
+void VerificarExistenCanciones()
+{
+    var existen = cancionRepository.VerificarExistenCanciones();
+
+    if(existen)
+    {
+        Console.WriteLine("Existen canciones registradas");
+    }
+    else
+    {
+        Console.WriteLine("No existen canciones registradas");
+    }
+}
+
+
+void VisualizarArtistas()
+{
+    MostrarListaArtistas(artistaRepository);
+    PresioneParaContinuar();
+}
+
+void MostrarListaArtistas(IGenericRepository<Artista> repository)
+{
+    Console.WriteLine("--- LISTADO ACTUAL EN BASE DE DATOS ---");
+    var Artistas = repository.ObtenerTodos();
+
+    if (!Artistas.Any())
+    {
+        Console.WriteLine("[La tabla está vacía]");
+    }
+    else
+    {
+        foreach (var u in Artistas)
+        {
+            Console.WriteLine($"ID: {u.Id} | Nombre: {u.Nombre} ");
+        }
+    }
+    Console.WriteLine("---------------------------------------");
+    Console.WriteLine();
+}
+
+
+
+
 
 void PresioneParaContinuar()
 {
